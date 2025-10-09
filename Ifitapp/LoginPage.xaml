@@ -1,0 +1,24 @@
+﻿<Page x:Class="Ifitapp.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Ifitapp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid>
+
+        <Border Background="#E0E0E0" CornerRadius="8" HorizontalAlignment="Center" Margin="0,177,0,251" Width="254" Height="22">
+            <TextBox x:Name="Login_input" Background="Transparent" BorderThickness="0" FontSize="12" Padding="4" MaxLines="1"/>
+        </Border>
+        <PasswordBox HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Width="254"/>
+        <Label Content="логин" HorizontalAlignment="Left" Margin="223,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="пароль" HorizontalAlignment="Left" Margin="219,221,0,0" VerticalAlignment="Top"/>
+        <Label Content="вход" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Page>
