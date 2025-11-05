@@ -1,0 +1,47 @@
+﻿<Page x:Class="FitnessApp.Pages.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Настройки">
+
+    <Grid Margin="20">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="Настройки приложения" FontSize="24" FontWeight="Bold" Margin="0,0,0,30"/>
+
+                <GroupBox Header="Внешний вид" Margin="0,0,0,20">
+                    <StackPanel Margin="10">
+                        <CheckBox x:Name="chkDarkTheme" Content="Темная тема" Margin="0,5"/>
+                        <CheckBox x:Name="chkNotifications" Content="Уведомления" Margin="0,5" IsChecked="True"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <TextBlock Text="Размер шрифта:" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="cmbFontSize" Margin="10,0,0,0" Width="100">
+                                <ComboBoxItem Content="Маленький"/>
+                                <ComboBoxItem Content="Средний" IsSelected="True"/>
+                                <ComboBoxItem Content="Большой"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Данные" Margin="0,0,0,20">
+                    <StackPanel Margin="10">
+                        <Button Content="Экспорт данных" Click="BtnExport_Click" Margin="0,5"/>
+                        <Button Content="Очистить кэш" Click="BtnClearCache_Click" Margin="0,5"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Система">
+                    <StackPanel Margin="10">
+                        <Button Content="Проверить обновления" Click="BtnCheckUpdates_Click" Margin="0,5"/>
+                        <Button Content="О программе" Click="BtnAbout_Click" Margin="0,5"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <Button Content="Сохранить настройки" Click="BtnSaveSettings_Click" 
+                       HorizontalAlignment="Left" Margin="0,20,0,0"
+                       Background="#FF2196F3" Foreground="White" 
+                       Height="35" Padding="20,0" FontWeight="Bold"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

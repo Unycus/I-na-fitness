@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ifitapp", "Ifitapp\Ifitapp.csproj", "{1A9AFBC1-82CC-4E1A-967E-09099FF8C714}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessApp", "FitnessApp\FitnessApp.csproj", "{BE25B8CA-DD85-4217-B0AF-9332336D8D71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A9AFBC1-82CC-4E1A-967E-09099FF8C714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A9AFBC1-82CC-4E1A-967E-09099FF8C714}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A9AFBC1-82CC-4E1A-967E-09099FF8C714}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A9AFBC1-82CC-4E1A-967E-09099FF8C714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE25B8CA-DD85-4217-B0AF-9332336D8D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE25B8CA-DD85-4217-B0AF-9332336D8D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE25B8CA-DD85-4217-B0AF-9332336D8D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE25B8CA-DD85-4217-B0AF-9332336D8D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7967B58C-C213-41DA-B175-783F4429238A}
+		SolutionGuid = {B1DCE30B-3520-447E-AD8F-5C1229BD0427}
 	EndGlobalSection
 EndGlobal
